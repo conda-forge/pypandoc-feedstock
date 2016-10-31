@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.3.3" %}
 package:
   name: pypandoc
   version: {{ version }}
@@ -6,8 +6,7 @@ package:
 source:
   fn: pypandoc-{{ version }}.zip
   url: https://github.com/bebraw/pypandoc/archive/v{{ version }}.zip
-  sha1: 4cd42a1e987223bbee639ac28d05ba516bad7071
-
+  sha1: e72e645b0776ac5e3e817b9fd1d3c635a2b21924
 
 build:
   number: 0
