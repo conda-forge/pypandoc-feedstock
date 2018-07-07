@@ -9,11 +9,13 @@ source:
   sha1: 2ba7d523a11a4b70ab9ec67791c39bc62bffde67
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
+    - pip
     - python
     - setuptools
     - pandoc
