@@ -14,14 +14,15 @@ Summary: Thin wrapper for "pandoc"
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pypandoc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pypandoc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pypandoc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pypandoc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pypandoc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pypandoc-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pypandoc-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pypandoc-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pypandoc/badges/version.svg)](https://anaconda.org/conda-forge/pypandoc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pypandoc/badges/downloads.svg)](https://anaconda.org/conda-forge/pypandoc)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pypandoc-green.svg)](https://anaconda.org/conda-forge/pypandoc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pypandoc.svg)](https://anaconda.org/conda-forge/pypandoc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pypandoc.svg)](https://anaconda.org/conda-forge/pypandoc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pypandoc.svg)](https://anaconda.org/conda-forge/pypandoc) |
 
 Installing pypandoc
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
