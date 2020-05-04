@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.5" %}
 
 package:
   name: pypandoc
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pypandoc/pypandoc-{{ version }}.tar.gz
-  sha256: e914e6d5f84a76764887e4d909b09d63308725f0cbb5293872c2c92f07c11a5b
+  sha256: 14a49977ab1fbc9b14ef3087dcb101f336851837fca55ca79cf33846cc4976ff
 
 build:
-  number: 1
+  number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -32,7 +32,7 @@ about:
   home: https://github.com/bebraw/pypandoc
   license: MIT
   license_file: LICENSE
-  summary: 'Thin wrapper for "pandoc"'
+  summary: Thin wrapper for "pandoc"
 
 extra:
   recipe-maintainers:
