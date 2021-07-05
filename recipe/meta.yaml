@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pandoc
   run:
-    - python
+    - python >=3.6
     - pandoc
 
 test:
@@ -27,6 +27,9 @@ test:
     - pypandoc
   commands:
     - python -c "import pypandoc; print(pypandoc.get_pandoc_version())"
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/bebraw/pypandoc
