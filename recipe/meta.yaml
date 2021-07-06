@@ -1,4 +1,4 @@
-{% set version = "1.5" %}
+{% set version = "1.6.3" %}
 
 package:
   name: pypandoc
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pypandoc/pypandoc-{{ version }}.tar.gz
-  sha256: 14a49977ab1fbc9b14ef3087dcb101f336851837fca55ca79cf33846cc4976ff
+  sha256: 95a331f5ef74adb9557e9961d784c30ba73bd0d62e7736bb5d9ce74888b9f438
 
 build:
   number: 0
@@ -15,11 +15,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - pandoc
   run:
-    - python
+    - python >=3.6
     - pandoc
 
 test:
@@ -27,6 +27,9 @@ test:
     - pypandoc
   commands:
     - python -c "import pypandoc; print(pypandoc.get_pandoc_version())"
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/bebraw/pypandoc
