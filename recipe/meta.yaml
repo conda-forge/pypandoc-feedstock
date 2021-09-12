@@ -1,4 +1,4 @@
-{% set version = "1.6.3" %}
+{% set version = "1.6.4" %}
 
 package:
   name: pypandoc
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pypandoc/pypandoc-{{ version }}.tar.gz
-  sha256: 95a331f5ef74adb9557e9961d784c30ba73bd0d62e7736bb5d9ce74888b9f438
+  sha256: 6ea03c8e92d561b0b47ff91ee9a777c50a8d3a325f3272ea4fefef4bb6562b91
 
 build:
   number: 0
