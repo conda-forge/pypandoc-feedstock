@@ -1,4 +1,4 @@
-{% set version = "1.6.4" %}
+{% set version = "1.7.0" %}
 
 package:
   name: pypandoc
@@ -6,20 +6,20 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pypandoc/pypandoc-{{ version }}.tar.gz
-  sha256: 6ea03c8e92d561b0b47ff91ee9a777c50a8d3a325f3272ea4fefef4bb6562b91
+  sha256: ff2aa68bef804396721f88c5dfac2747220980b22abe75c598dd0163c87742a8
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.6,<4.0
     - pip
-    - pandoc
+    - poetry-core >=1.0.0
   run:
-    - python >=3.6
+    - python >=3.6,<4.0
     - pandoc
 
 test:
@@ -32,10 +32,10 @@ test:
     - pip
 
 about:
-  home: https://github.com/bebraw/pypandoc
+  home: https://github.com/NicklasTegner/pypandoc
   license: MIT
   license_file: LICENSE
-  summary: Thin wrapper for "pandoc"
+  summary: Thin wrapper for pandoc
 
 extra:
   recipe-maintainers:

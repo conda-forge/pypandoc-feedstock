@@ -1,13 +1,13 @@
 About pypandoc
 ==============
 
-Home: https://github.com/bebraw/pypandoc
+Home: https://github.com/NicklasTegner/pypandoc
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypandoc-feedstock/blob/master/LICENSE.txt)
 
-Summary: Thin wrapper for "pandoc"
+Summary: Thin wrapper for pandoc
 
 Current build status
 ====================
@@ -55,7 +55,8 @@ conda search pypandoc --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
