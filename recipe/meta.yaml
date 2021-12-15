@@ -11,15 +11,14 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.6,<4.0
     - pip
-    - pandoc
   run:
-    - python >=3.6
+    - python >=3.6,<4.0
     - pandoc
 
 test:
@@ -32,10 +31,10 @@ test:
     - pip
 
 about:
-  home: https://github.com/bebraw/pypandoc
+  home: https://github.com/NicklasTegner/pypandoc
   license: MIT
   license_file: LICENSE
-  summary: Thin wrapper for "pandoc"
+  summary: Thin wrapper for pandoc
 
 extra:
   recipe-maintainers:
