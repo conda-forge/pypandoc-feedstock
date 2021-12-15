@@ -1,13 +1,13 @@
 About pypandoc
 ==============
 
-Home: https://github.com/bebraw/pypandoc
+Home: https://github.com/NicklasTegner/pypandoc
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypandoc-feedstock/blob/master/LICENSE.txt)
 
-Summary: Thin wrapper for "pandoc"
+Summary: Thin wrapper for pandoc
 
 Current build status
 ====================
