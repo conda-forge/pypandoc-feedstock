@@ -17,7 +17,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - hatchling
+    - poetry-core >=1.0.0
   run:
     - python >={{ python_min }}
     - pandoc
