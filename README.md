@@ -3,11 +3,19 @@ About pypandoc-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pypandoc-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/NicklasTegner/pypandoc
+Home: https://github.com/JessicaTegner/pypandoc
 
 Package license: MIT
 
 Summary: Thin wrapper for pandoc
+
+Development: https://github.com/JessicaTegner/pypandoc
+
+Documentation: https://github.com/JessicaTegner/pypandoc#readme
+
+pypandoc is a thin wrapper for pandoc that provides a simple
+Python interface for document conversion.
+
 
 Current build status
 ====================
@@ -144,5 +152,6 @@ Feedstock Maintainers
 =====================
 
 * [@jankatins](https://github.com/jankatins/)
+* [@jessicategner](https://github.com/jessicategner/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
