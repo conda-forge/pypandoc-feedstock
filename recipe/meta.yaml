@@ -2,7 +2,7 @@
 
 package:
   name: pypandoc
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/p/pypandoc/pypandoc-{{ version }}.tar.gz
